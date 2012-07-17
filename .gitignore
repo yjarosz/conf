@@ -1,0 +1,16 @@
+*~
+*.pyc
+*.swp
+*.swo
+*~
+*.log
+#*#
+*.log.*
+*.class
+.idea
+.project
+.pydevproject
+.settings/
+*.egg
+*.db
+*.DS_Store
