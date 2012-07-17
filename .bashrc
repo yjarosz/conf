@@ -6,9 +6,14 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # Source git autocomplete
-if [ -f /usr/local/git/git-completion.bash ]; then
-    . /usr/local/git/git-completion.bash
-fi
+#if [ -f /usr/local/git/git-completion.bash ]; then
+#    . /usr/local/git/git-completion.bash
+#fi
+# on mac
+#if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
+#. `brew --prefix`/etc/bash_completion.d/git-completion.bash
+#fi
+
 
 #bash prompt                                                                                                                                                                                               
 function proml {
